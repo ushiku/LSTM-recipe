@@ -1,0 +1,809 @@
+------------------------------
+shuffle: 0
+all_indexのサイズ: 80
+ne_indexのサイズ: 50
+学習の文の数: 10
+ユニット数 1000
+ループの回数 100
+------------------------------
+学習スタート
+1 回目
+sequence:0, loss:811.9324340820312
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: を/O を/O を/O い/O かつおぶし/F かつおぶし/F かつおぶし/F 窯/F 窯/F 窯/F 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+2 回目
+sequence:1, loss:636.1838989257812
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 入れ/Ac を/O 入れ/Ac 入れ/Ac は/O い/O は/O 高野-豆腐/F 、/O 、/O 米/F 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+3 回目
+sequence:2, loss:546.946533203125
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O を/O を/O を/O を/O を/O を/O を/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+4 回目
+sequence:3, loss:421.4275207519531
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F す/O 研/Ac い/O お/O お/O 高野-豆腐/F 高野-豆腐/F の/O の/O みりん/F 高野-豆腐/F 高野-豆腐/F 高野-豆腐/F 加え/Ac の/O の/O の/O の/O の/O の/O の/O す/O す/O す/O す/O す/O す/O す/O す/O す/O す/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+5 回目
+sequence:4, loss:374.10174560546875
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: ま/O に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 高野-豆腐/F 高野-豆腐/F 高野-豆腐/F 、/O 、/O 、/O 、/O 、/O 、/O 、/O 、/O の/O の/O の/O の/O の/O の/O の/O の/O の/O まで/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+6 回目
+sequence:5, loss:365.5436706542969
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F に/O す/O す/O す/O お/O 弱火/T 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 、/O 、/O 、/O の/O の/O の/O す/O す/O す/O す/O す/O す/O す/O す/O す/O す/O す/O す/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+7 回目
+sequence:6, loss:323.66595458984375
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F に/O る/O る/O る/O お/O 米/F 、/O 、/O 、/O 、/O 、/O 高野-豆腐/F 、/O 長ねぎ/F 長ねぎ/F 、/O 、/O の/O の/O の/O の/O の/O の/O の/O の/O の/O の/O の/O の/O の/O の/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+8 回目
+sequence:7, loss:284.593017578125
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F に/O る/O る/O る/O お/O 長ねぎ/F 、/O 醤油/F 窯/F みりん/F みりん/F 高野-豆腐/F 、/O 、/O を/O を/O を/O 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+9 回目
+sequence:8, loss:258.9363708496094
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F に/O す/O 。/O す/O お/O 米/F 、/O 醤油/F 、/O みりん/F 高野-豆腐/F 高野-豆腐/F 高野-豆腐/F 長ねぎ/F しょうが/F しょうが/F しょうが/F の/O の/O の/O の/O の/O の/O の/O の/O の/O 線/F 線/F 線/F 線/F 線/F
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+10 回目
+sequence:9, loss:249.73526000976562
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F に/O 。/O 。/O 入れ/Ac お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 、/O 、/O 、/O 、/O の/O の/O の/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+11 回目
+sequence:10, loss:235.0519256591797
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F に/O 入れ/Ac かけ/Ac 入れ/Ac 入れ/Ac 長ねぎ/F 、/O 醤油/F 窯/F みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O 加え/Ac 加え/Ac 加え/Ac 加え/Ac 加え/Ac 加え/Ac 加え/Ac 加え/Ac 加え/Ac の/O の/O の/O の/O の/O の/O の/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+12 回目
+sequence:11, loss:234.1989288330078
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F 入れ/Ac 入れ/Ac 入れ/Ac す/O 。/O 入れ/Ac 入れ/Ac 入れ/Ac 窯/F みりん/F 。/O 高野-豆腐/F 、/O 、/O の/O の/O す/O す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+13 回目
+sequence:12, loss:233.37582397460938
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F に/O 入れ/Ac 。/O 。/O 。/O 水/F 入れ/Ac 入れ/Ac 窯/F みりん/F 、/O 高野-豆腐/F 、/O 、/O 、/O の/O の/O の/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+14 回目
+sequence:13, loss:197.6543731689453
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac す/O 入れ/Ac 入れ/Ac 水/F 窯/F みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+15 回目
+sequence:14, loss:210.00425720214844
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F 水/F 入れ/Ac ま/O を/O を/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F しょうが/F 加え/Ac 、/O 、/O 、/O を/O を/O を/O 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac 入れ/Ac
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+16 回目
+sequence:15, loss:207.38674926757812
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 入れ/Ac 入れ/Ac 入れ/Ac 。/O 。/O 。/O 入れ/Ac 入れ/Ac 入れ/Ac 窯/F みりん/F 、/O 高野-豆腐/F 、/O 、/O 、/O を/O の/O の/O の/O の/O の/O の/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+17 回目
+sequence:16, loss:182.33795166015625
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 入れ/Ac 入れ/Ac 。/O 。/O 。/O 。/O 入れ/Ac 、/O 入れ/Ac 窯/F みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+18 回目
+sequence:17, loss:169.6002960205078
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 入れ/Ac 。/O 。/O 。/O 。/O 入れ/Ac 。/O 。/O 。/O 入れ/Ac 高野-豆腐/F を/O 、/O 、/O の/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+19 回目
+sequence:18, loss:161.21429443359375
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F 。/O 入れ/Ac 。/O 。/O 。/O 。/O 入れ/Ac 。/O 窯/F みりん/F 、/O 高野-豆腐/F 、/O 、/O 、/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+20 回目
+sequence:19, loss:155.19708251953125
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 入れ/Ac 高野-豆腐/F を/O 、/O 、/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+21 回目
+sequence:20, loss:160.4020538330078
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 高野-豆腐/F を/O 、/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+22 回目
+sequence:21, loss:143.97398376464844
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 、/O 、/O を/O を/O る/O る/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+23 回目
+sequence:22, loss:146.2676239013672
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F 入れ/Ac 入れ/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 高野-豆腐/F を/O 、/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+24 回目
+sequence:23, loss:141.7305145263672
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 、/O る/O る/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+25 回目
+sequence:24, loss:122.28549194335938
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 窯/F 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 水/F 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+26 回目
+sequence:25, loss:111.09925079345703
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 入れ/Ac る/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+27 回目
+sequence:26, loss:110.92464447021484
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 入れ/Ac 入れ/Ac す/O す/O 。/O す/O す/O 。/O 。/O 。/O 。/O 。/O 。/O を/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+28 回目
+sequence:27, loss:135.3357696533203
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+29 回目
+sequence:28, loss:130.68434143066406
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+30 回目
+sequence:29, loss:120.79489135742188
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O ま/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+31 回目
+sequence:30, loss:114.13207244873047
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+32 回目
+sequence:31, loss:110.34945678710938
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+33 回目
+sequence:32, loss:141.65072631835938
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+34 回目
+sequence:33, loss:216.88812255859375
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 、/O 高野-豆腐/F を/O つけ/Ac っ/O つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+35 回目
+sequence:34, loss:305.5242614746094
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf とろみ/Sf
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+36 回目
+sequence:35, loss:187.5496368408203
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O っ/O を/O 。/O る/O 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+37 回目
+sequence:36, loss:166.79891967773438
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+38 回目
+sequence:37, loss:133.5605926513672
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+39 回目
+sequence:38, loss:116.13851165771484
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+40 回目
+sequence:39, loss:105.01151275634766
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+41 回目
+sequence:40, loss:97.99656677246094
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O 。/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+42 回目
+sequence:41, loss:86.36446380615234
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+43 回目
+sequence:42, loss:86.6419906616211
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O つけ/Ac つけ/Ac つけ/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+44 回目
+sequence:43, loss:84.08718872070312
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+45 回目
+sequence:44, loss:107.50618743896484
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O つけ/Ac つけ/Ac つけ/Ac つけ/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+46 回目
+sequence:45, loss:71.33594512939453
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O る/O 煮/Ac 煮/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+47 回目
+sequence:46, loss:87.45558166503906
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+48 回目
+sequence:47, loss:81.82862854003906
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+49 回目
+sequence:48, loss:99.98152160644531
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac つけ/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+50 回目
+sequence:49, loss:63.74534225463867
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+51 回目
+sequence:50, loss:78.03599548339844
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+52 回目
+sequence:51, loss:67.78730773925781
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O で/O 。/O で/O で/O で/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+53 回目
+sequence:52, loss:73.85750579833984
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+54 回目
+sequence:53, loss:65.12715148925781
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O 。/O 。/O 煮/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+55 回目
+sequence:54, loss:70.3916244506836
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+56 回目
+sequence:55, loss:53.15224838256836
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+57 回目
+sequence:56, loss:61.74715805053711
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+58 回目
+sequence:57, loss:65.91252136230469
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+59 回目
+sequence:58, loss:80.03740692138672
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O で/O で/O で/O つけ/Ac で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+60 回目
+sequence:59, loss:75.89259338378906
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+61 回目
+sequence:60, loss:74.2171401977539
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O て/O て/O 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+62 回目
+sequence:61, loss:85.07012939453125
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O つけ/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+63 回目
+sequence:62, loss:65.2916259765625
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O で/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+64 回目
+sequence:63, loss:70.12509155273438
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+65 回目
+sequence:64, loss:94.83564758300781
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+66 回目
+sequence:65, loss:60.96662902832031
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+67 回目
+sequence:66, loss:77.69960021972656
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+68 回目
+sequence:67, loss:66.70732879638672
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+69 回目
+sequence:68, loss:81.94115447998047
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+70 回目
+sequence:69, loss:73.59613037109375
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: 入れ/Ac ま/O 入れ/Ac ま/O す/O す/O す/O す/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F を/O 長ねぎ/F 、/O を/O を/O を/O を/O 入れ/Ac ま/O 入れ/Ac ま/O 入れ/Ac 。/O 入れ/Ac 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+71 回目
+sequence:70, loss:90.80416870117188
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O す/O す/O す/O す/O す/O 長ねぎ/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O を/O 、/O 、/O ま/O ま/O ま/O 入れ/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+72 回目
+sequence:71, loss:72.49595642089844
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 長ねぎ/F 。/O 。/O 。/O 。/O 。/O で/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+73 回目
+sequence:72, loss:105.91915893554688
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O す/O す/O す/O 、/O 醤油/F 、/O みりん/F を/O を/O を/O を/O を/O を/O を/O を/O を/O 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+74 回目
+sequence:73, loss:69.19213104248047
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O す/O す/O 。/O 。/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+75 回目
+sequence:74, loss:70.0125732421875
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 、/O を/O を/O を/O を/O を/O を/O を/O を/O を/O 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+76 回目
+sequence:75, loss:77.77739715576172
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+77 回目
+sequence:76, loss:154.7313232421875
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O す/O 。/O 。/O を/O を/O る/O を/O を/O を/O を/O を/O を/O る/O 弱火/T 弱火/T る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+78 回目
+sequence:77, loss:185.11558532714844
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O つけ/Ac 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af 出来上がり/Af
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+79 回目
+sequence:78, loss:124.59822845458984
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 味/Sf 味/Sf 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+80 回目
+sequence:79, loss:125.37699127197266
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O 。/O る/O 。/O 。/O る/O る/O る/O る/O る/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+81 回目
+sequence:80, loss:89.08789825439453
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 味/Sf 味/Sf を/O を/O を/O を/O を/O て/O て/O 弱火/T 弱火/T 弱火/T 弱火/T 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+82 回目
+sequence:81, loss:48.864540100097656
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O を/O 味/Sf を/O を/O を/O を/O を/O で/O る/O 煮/Ac 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+83 回目
+sequence:82, loss:56.82284927368164
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O 味/Sf を/O を/O を/O を/O を/O を/O て/O 弱火/T 弱火/T 弱火/T 弱火/T 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+84 回目
+sequence:83, loss:40.73353958129883
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O で/O 。/O を/O を/O を/O を/O で/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+85 回目
+sequence:84, loss:56.80921936035156
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O る/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+86 回目
+sequence:85, loss:41.39958953857422
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+87 回目
+sequence:86, loss:45.84926986694336
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+88 回目
+sequence:87, loss:39.2177734375
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+89 回目
+sequence:88, loss:49.78215789794922
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+90 回目
+sequence:89, loss:37.26523971557617
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+91 回目
+sequence:90, loss:49.9827880859375
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O て/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+92 回目
+sequence:91, loss:36.47787857055664
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+93 回目
+sequence:92, loss:42.109779357910156
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+94 回目
+sequence:93, loss:34.86683654785156
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O 。/O る/O 弱火/T 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+95 回目
+sequence:94, loss:43.265602111816406
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+96 回目
+sequence:95, loss:33.730255126953125
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O 。/O で/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+97 回目
+sequence:96, loss:40.26327896118164
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O を/O 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac 煮/Ac で/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+98 回目
+sequence:97, loss:36.84754943847656
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O で/O を/O 。/O 弱火/T 弱火/T 弱火/T 弱火/T 弱火/T 煮/Ac る/O る/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+99 回目
+sequence:98, loss:46.71818161010742
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O て/O 、/O 、/O 蓋/O 蓋/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O で/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
+100 回目
+sequence:99, loss:34.87571716308594
+-------------------
+サンプル表示
+入力: 窯/F, 研/Ac, 米/F, 醤油/F, みりん/F, 高野-豆腐/F, 長ねぎ/F, しょうが/F, 加え/Ac, 窯/F, １/F, 線/F, 水/F, 入れ/Ac, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK, UNK
+出力: す/O 。/O 。/O 。/O 。/O 。/O 。/O を/O を/O を/O を/O を/O を/O を/O て/O る/O 弱火/T 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O 。/O
+正解: 窯/F に/O 研/Ac い/O だ/O お/O 米/F 、/O 醤油/F 、/O みりん/F 、/O 高野-豆腐/F 、/O 長ねぎ/F 、/O しょうが/F を/O 加え/Ac 、/O 窯/F の/O １/F の/O 線/F まで/O 水/F を/O 入れ/Ac ま/O す/O 。/O
+--------------------
