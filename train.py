@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- 
 from __future__ import print_function
 import argparse
-aimport math
+import math
 import sys
 import time
 import re
